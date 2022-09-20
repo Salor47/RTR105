@@ -1,0 +1,106 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  whereis ls
+    5  pwd
+    6  ls -lt /bin/ls
+    7  ls -lt
+    8  ls -l
+    9  -l man
+   10  ls -l man
+   11  ls man
+   12  man ls -l
+   13  cd /bin
+   14  ls
+   15  echo $0
+   16  ls -l
+   17  man cd
+   18  ls
+   19  cd
+   20  cd /bin
+   21  ls
+   22  ls -l
+   23  ls -lt
+   24  whereis ls
+   25  cat ls
+   26  nano ls
+   27  pwd
+   28  cd
+   29  cd ~
+   30  pwd
+   31  /bin/ls
+   32  cat ls
+   33  /bin/ls
+   34  cd /biin/ls
+   35  cd /bin/ls
+   36  echo $PATH
+   37  sudo
+   38  sudo apt-get
+   39  ls -l /bin/ls
+   40  git clone https://github.com/Salor47/RTR105
+   41  ls -lt
+   42  pwd
+   43  rtu
+   44  l
+   45  lt
+   46  ls
+   47  l
+   48  ls
+   49  df
+   50  c
+   51  cd
+   52  cd RTR105/
+   53  history
+   54  history > history_20septembris2022.txt
+   55  ls -lt
+   56  cat history_20septembris2022.txt 
+   57  nano git-upload
+   58  ls -lt
+   59  pwd
+   60  cat git-upload 
+   61  git-upload
+   62  /home/user/RTR105/git-upload
+   63  chmod
+   64  chmod 764 git-upload
+   65  ls -lt git-upload 
+   66  echo $0
+   67  echo $PATH
+   68  pwd
+   69  ./git-upload 
+   70  nano git-upload 
+   71  ./git-upload 
+   72  nano git-upload 
+   73  ./git-upload 
+   74  git push
+   75  ./git-upload 
+   76  pwd
+   77  nano git-upload 
+   78  ./git-upload 
+   79  nano git-upload 
+   80  ./git-upload 
+   81  git push
+   82  cd
+   83  history | grep clone
+   84  git clone https://github.com/salor47/RTR105
+   85  rm RTR105
+   86  rm -mdir RTR105
+   87  rmdir
+   88  -rmdir
+   89  rm -d
+   90  rm -d RTR105
+   91  rm -r RTR105
+   92  rm -r RTR105/
+   93  rm -rF RTR105/
+   94  rm -rf RTR105/
+   95  ls
+   96  git.clone https://github.com/salor47/RTR105
+   97  git clone https://github.com/salor47/RTR105
+   98  $PATH
+   99  CD RTR105/
+  100  cd RTR105/
+  101  PATH=$PATH
+  102  echo $PATH
+  103  PATH=$PATH:./
+  104  git -
+  105  -git
+  106  history > history_20septembris2022_2.txt 
