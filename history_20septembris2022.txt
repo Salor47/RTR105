@@ -1,0 +1,54 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  whereis ls
+    5  pwd
+    6  ls -lt /bin/ls
+    7  ls -lt
+    8  ls -l
+    9  -l man
+   10  ls -l man
+   11  ls man
+   12  man ls -l
+   13  cd /bin
+   14  ls
+   15  echo $0
+   16  ls -l
+   17  man cd
+   18  ls
+   19  cd
+   20  cd /bin
+   21  ls
+   22  ls -l
+   23  ls -lt
+   24  whereis ls
+   25  cat ls
+   26  nano ls
+   27  pwd
+   28  cd
+   29  cd ~
+   30  pwd
+   31  /bin/ls
+   32  cat ls
+   33  /bin/ls
+   34  cd /biin/ls
+   35  cd /bin/ls
+   36  echo $PATH
+   37  sudo
+   38  sudo apt-get
+   39  ls -l /bin/ls
+   40  git clone https://github.com/Salor47/RTR105
+   41  ls -lt
+   42  pwd
+   43  rtu
+   44  l
+   45  lt
+   46  ls
+   47  l
+   48  ls
+   49  df
+   50  c
+   51  cd
+   52  cd RTR105/
+   53  history
+   54  history > history_20septembris2022.txt
