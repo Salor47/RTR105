@@ -1,0 +1,106 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  ls -lt
+    5  pwd
+    6  cd Videos
+    7  pwd
+    8  cd
+    9  firefox
+   10  git clone https://github.com/salor47/RTR-105
+   11  ls
+   12  ls -lt
+   13  ls -lt RTR-105/
+   14  rm -rt
+   15  rmdir
+   16  rm -d RTR-105
+   17  rm -r RTR-105
+   18  rm -f RTR-105
+   19  rm -rf RTR-105
+   20  git clone https://github.com/salor47/RTR105
+   21  cd RTR105/
+   22  mkdir Class_06
+   23  ls -lt
+   24  nano firts.c
+   25  ls -lt
+   26  cat first.c
+   27  gcc first.c
+   28  gcc man
+   29  man gcc
+   30  cat a.out
+   31  first.c
+   32  nano first.c
+   33  ls -lt
+   34  a.out
+   35  echo $PATH
+   36  /home/user/RTR105/Class_06/a.out
+   37  cd /home/user/RTR105/Class_06/a.out
+   38  pwd
+   39  cd Class_06/
+   40  pwd
+   41  ./a.out
+   42  ls -ltls -lt
+   43  ls -lt
+   44  cd RTR
+   45  cd
+   46  cd RTR105/
+   47  ls -lt
+   48  mv a.out Class_06
+   49  ls -lt
+   50  mv first.c Class_06/
+   51  ls- lt
+   52  ls -lt
+   53  cd /home/user/RTR105/Class_06/a.out
+   54  cd
+   55  cd /home/user/RTR105/Class_06/a.out
+   56  cd RTR105/
+   57  cd Class_06/
+   58  tree
+   59  cd R
+   60  cd
+   61  cd RTR105/
+   62  tree
+   63  nano first.c
+   64  cd Class_06/
+   65  nano first.c
+   66  echo $?
+   67  a.out
+   68  echo $?
+   69  lss
+   70  echo $?
+   71  lss
+   72  echo $?
+   73  ls
+   74  echo $?
+   75  nano first.c
+   76  gcc first.c
+   77  ./a.out
+   78  nano first.c
+   79  first.c
+   80  gcc first.c
+   81  nano first.c
+   82  gcc first.c
+   83  ./a.out
+   84  echo $?
+   85  nano first.c
+   86  gcc first.c -o first.out
+   87  ls -lt
+   88  ls -lta
+   89  cd 
+   90  cd RTR105/
+   91  ls -lta
+   92  nano .gitignore
+   93  ls -lt
+   94  ls -lsa
+   95  gcc first.c -S -o first.out
+   96  gcc first.c -S -save-temps first.out
+   97  gcc first.c -S -save-temps -o first.out
+   98  cd Class_06/
+   99  gcc first.c -S -save-temps -o first.out
+  100  ls -lt
+  101  cat first.icat first.i
+  102  cat first.i
+  103  ls -lt
+  104  hexdump -C first.c
+  105  history
+  106  history > history_27092022
