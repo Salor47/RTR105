@@ -1,0 +1,14 @@
+\n - parcel jauna rinda
+\t - 
+\v -
+\b - viena pozicija atpakal
+\a -
+\r - parcel uz rindas sakumu
+
+print("random teksts\t random turpinaujums");
+print("random \v ko sitais dara");
+print("turpinaju \a ms");
+print("");
+print("");
+print("");
+print("");

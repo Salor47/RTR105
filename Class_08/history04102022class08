@@ -1,0 +1,133 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  tree
+    4* 
+    5  echo 12345 > a.txt
+    6  a.txt
+    7  cat a.txt
+    8  ls -lta a.txt
+    9  rm -rf a.txt
+   10  ls
+   11  ls -lta
+   12  -ls lt
+   13  ls -lt
+   14  git clone https://github.com/salor47
+   15  git clone https://github.com/salor47/RTR105
+   16  ls
+   17  ls RTR105/
+   18  cd RTR105/
+   19  mkdir Class_07
+   20  ls
+   21* print
+   22  nano printf_example
+   23  gcc printf_example
+   24  nano printf_example
+   25  nano printf_example.c
+   26  gcc printf_example.c
+   27  printf_example.c
+   28  ls -lt
+   29  nano printf_example
+   30  gcc printf_example.c
+   31  printf_example.c
+   32  rhmod 700 printf_example.c
+   33  chmod 700 printf_example.c
+   34  ls -lt
+   35  printf_example.c
+   36  $PATH$
+   37  export PATH="$HOME/RTR105:$PATH"
+   38  $PATH$
+   39  printf_example.c
+   40  chmod 777 printf_example.c
+   41  ls -lt
+   42  printf_example.c
+   43  export PATH="$HOME/Class_07:$PATH"
+   44  printf_example.c
+   45  pwd
+   46  ls -lt
+   47  printf_example
+   48* ./
+   49  ./printf_example.c 
+   50  ./printf_example.c
+   51  gcc printf_example.c
+   52  ./printf_example.c
+   53  nano printf_example.c
+   54  gcc printf_example.c
+   55  nano printf_example.c
+   56  gcc printf_example.c
+   57  ./printf_example.c
+   58  a.out
+   59  ls
+   60  ls -lt
+   61  ./a.out
+   62  history > history04102022
+   63  cd
+   64  git upload https://github.com
+   65  git-upload https://github.com/salor47/RTR105
+   66  cd
+   67  tree
+   68  cd
+   69  tree
+   70  cd
+   71  tree
+   72  gitupload https://github.com
+   73  git-upload
+   74  cd RTR105/
+   75  ./git-upload 
+   76  pwd
+   77  mkdir Class_08
+   78  cd Class_08
+   79  pwd
+   80  cd
+   81  RTR105/
+   82  cd RTR105/
+   83  >Class_07
+   84  cd Class_07
+   85  nano printf_example.c
+   86  ls -lt
+   87  a.out
+   88  ./a.out
+   89  cat printf_example.c
+   90  ./a.out
+   91  cat printf_example.c
+   92  nano printf_example.c
+   93  gcc ./printf_example.c
+   94  ./a.out
+   95  ls -lta
+   96  nano printf_example.c
+   97  ./ gccgcc
+   98  gcc printf_example.c
+   99  nano printf_example.c
+  100  gcc printf_example.c
+  101  nano printf_example.c
+  102  gcc printf_example.c
+  103  nano printf_example.c
+  104  gcc printf_example.c
+  105  ./a.out 
+  106  nano printf_example.c
+  107  nano scanf_example.c
+  108  gcc scanf_example.c
+  109  rhmod 777 scanf_example.c 
+  110  chmod 777 scanf_example.c 
+  111  ls -lt
+  112  ./scanf_example.c
+  113  gcc scanf_example.c -o scanf_example.out
+  114  ls -lt
+  115  scanf_example.out
+  116* 
+  117  sd
+  118  ./scanf_example.out
+  119  cd .
+  120  cd ..
+  121  Class 08
+  122  Class_08
+  123  cd Class_08
+  124  nano backslashes.txt
+  125* cat backslashes.
+  126  nano backslashes.c
+  127  nano backslashes.txt
+  128  nano backslashes.c
+  129  gcc backslashes.c -o backslashes.out
+  130  nano backslashes.c
+  131  gcc backslashes.c -o backslashes.out
+  132  nano backslashes.c
+  133  history > history04102022class08
