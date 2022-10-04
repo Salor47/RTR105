@@ -1,0 +1,62 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  tree
+    4* 
+    5  echo 12345 > a.txt
+    6  a.txt
+    7  cat a.txt
+    8  ls -lta a.txt
+    9  rm -rf a.txt
+   10  ls
+   11  ls -lta
+   12  -ls lt
+   13  ls -lt
+   14  git clone https://github.com/salor47
+   15  git clone https://github.com/salor47/RTR105
+   16  ls
+   17  ls RTR105/
+   18  cd RTR105/
+   19  mkdir Class_07
+   20  ls
+   21* print
+   22  nano printf_example
+   23  gcc printf_example
+   24  nano printf_example
+   25  nano printf_example.c
+   26  gcc printf_example.c
+   27  printf_example.c
+   28  ls -lt
+   29  nano printf_example
+   30  gcc printf_example.c
+   31  printf_example.c
+   32  rhmod 700 printf_example.c
+   33  chmod 700 printf_example.c
+   34  ls -lt
+   35  printf_example.c
+   36  $PATH$
+   37  export PATH="$HOME/RTR105:$PATH"
+   38  $PATH$
+   39  printf_example.c
+   40  chmod 777 printf_example.c
+   41  ls -lt
+   42  printf_example.c
+   43  export PATH="$HOME/Class_07:$PATH"
+   44  printf_example.c
+   45  pwd
+   46  ls -lt
+   47  printf_example
+   48* ./
+   49  ./printf_example.c 
+   50  ./printf_example.c
+   51  gcc printf_example.c
+   52  ./printf_example.c
+   53  nano printf_example.c
+   54  gcc printf_example.c
+   55  nano printf_example.c
+   56  gcc printf_example.c
+   57  ./printf_example.c
+   58  a.out
+   59  ls
+   60  ls -lt
+   61  ./a.out
+   62  history > history04102022
