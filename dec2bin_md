@@ -1,1 +1,8 @@
+#include<stdio.h>
 
+int main() 
+{
+char a; 
+printf("a (kā simbols): %b\n",a); 
+return 0;
+}
