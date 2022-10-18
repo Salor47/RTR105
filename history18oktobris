@@ -1,0 +1,139 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone
+    4  git clone https://github.com/salor47/rtu105
+    5  https://github.com/Salor47/RTR105
+    6  git clone https://github.com/Salor47/RTR105
+    7  cd rtr105
+    8  cd RTR105
+    9  mkdir Class_10
+   10  cd Class_10
+   11  nano opretaion_tests.c
+   12  opretaion_tests.c > operation_tests.c
+   13  cd opretaion_tests.c > operation_tests.c
+   14  mvdir opretaion_tests.c > operation_tests.c
+   15  gcc opretaion.c
+   16  ls -lt
+   17  chmod 777 operation_tests.c
+   18  ls -lt
+   19  gcc operation_tests.c 
+   20  ls -lt
+   21  nano operation_tests.c 
+   22  nano opretaion_tests.c
+   23  nano operation_tests.c 
+   24  nano opretaion_tests.c
+   25  nano operation_tests.c 
+   26  ls -lt
+   27  nano operation_tests.c 
+   28  gcc operation_tests.c
+   29  nano operation_tests.c 
+   30  gcc operation_tests.c
+   31  nano operation_tests.c 
+   32  gcc operation_tests.c
+   33  nano operation_tests.c 
+   34  gcc operation_tests.c
+   35  nano operation_tests.c 
+   36  gcc operation_tests.c
+   37  nano operation_tests.c 
+   38  gcc operation_tests.c
+   39  nano operation_tests.c 
+   40  gcc operation_tests.c
+   41  nano operation_tests.c 
+   42  gcc operation_tests.c
+   43  nano operation_tests.c 
+   44  gcc operation_tests.c
+   45  nano operation_tests.c 
+   46  gcc operation_tests.c
+   47  nano operation_tests.c 
+   48  gcc operation_tests.c
+   49  nano operation_tests.c 
+   50  gcc operation_tests.c
+   51  ls -lt
+   52* 
+   53  a.out
+   54  gcc a.out
+   55  gcc operation_tests.c operation_tests.out
+   56  gcc a.out
+   57  gcc operation_tests.c
+   58  ls -lt
+   59  chmod 777 a.out
+   60  ls -lt
+   61  a.out
+   62  a.c
+   63  a.out
+   64  ./a.out
+   65  nano operation_tests.c 
+   66  gcc operation_tests.c
+   67  ./a.out
+   68  git-upload
+   69  cd ..
+   70  ./git_upload
+   71  git_upload
+   72  ls
+   73  ls-lt
+   74  ls -lt
+   75  git-upload
+   76  ./git-upload
+   77  cd Class_10
+   78  nano operation_tests.c
+   79  ls -lt
+   80  nano operation_tests.c
+   81  gcc operation_tests.c
+   82  nano operation_tests.c
+   83  gcc operation_tests.c
+   84  nano operation_tests.c
+   85  gcc operation_tests.c
+   86  nano operation_tests.c
+   87  gcc operation_tests.c
+   88  nano operation_tests.c
+   89  gcc operation_tests.c
+   90  ./a.out
+   91  nano operation_tests.c
+   92  nano if_tests.c
+   93  gcc if_tests.c
+   94  ls -lt
+   95  a.out
+   96  ./a.out
+   97  nano if_tests.c
+   98  gcc if_tests.c
+   99  nano if_tests.c
+  100  gcc if_tests.c
+  101  ./a.out
+  102  nano if_tests.c
+  103  gcc if_tests.c
+  104  nano if_tests.c
+  105  gcc if_tests.c
+  106  nano if_tests.c
+  107  gcc if_tests.c
+  108  nano if_tests.c
+  109  gcc if_tests.c
+  110  nano if_tests.c
+  111  gcc if_tests.c
+  112  nano if_tests.c
+  113  gcc if_tests.c
+  114  ./a.out
+  115  nano if_tests.c
+  116  gcc if_tests.c
+  117  nano if_tests.c
+  118  gcc if_tests.c
+  119  ./a.out
+  120  nano if_tests.c
+  121  gcc if_tests.c
+  122  ./a.out
+  123  gcc if_tests.c
+  124  nano if_tests.c
+  125  gcc if_tests.c
+  126  nano if_tests.c
+  127  gcc if_tests.c
+  128  nano if_tests.c
+  129  gcc if_tests.c
+  130  ./a.out
+  131  nano if_tests.c
+  132  gcc if_tests.c
+  133  ./a.out
+  134  /..
+  135  ..
+  136  cd ..
+  137  git-upload
+  138  ./git-upload
+  139  history > history18oktobris
