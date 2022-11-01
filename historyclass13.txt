@@ -1,0 +1,32 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/salor47/RTR105
+    4  cd RTR105
+    5  mkdir Class_13
+    6  cd Class_13
+    7  nano user_function.c
+    8  gcc -g user_function.c
+    9  nano user_function.c
+   10  gcc -g user_function.c
+   11  nano user_function.c
+   12  gcc -g user_function.c
+   13  gdb a.out
+   14  nano user_function.c
+   15  ./a.out
+   16  nano user_function.c
+   17  nano main_with_arguments.c
+   18  gcc main_with_arguments.c 
+   19  nano main_with_arguments.c
+   20  gcc main_with_arguments.c 
+   21  ./a.out
+   22  nano main_with_arguments.c
+   23  gcc main_with_arguments.c
+   24  nano main_with_arguments.c
+   25  gcc main_with_arguments.c
+   26  nano main_with_arguments.c
+   27  gcc main_with_arguments.c
+   28  nano main_with_arguments.c
+   29  gcc main_with_arguments.c
+   30  cd ..
+   31  history > historyclass13
+   32  history > historyclass13.txt
