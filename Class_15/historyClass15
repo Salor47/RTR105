@@ -1,0 +1,37 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/salor47/RTR105
+    4  cd RTR105
+    5  mkdir Class_15
+    6  cd Class_15
+    7  nano pointers.c
+    8  gcc pointers.c
+    9  nano pointers.c
+   10  gcc pointers.c
+   11  nano pointers.c
+   12  gcc pointers.c
+   13  ./a.out
+   14  gcc pointers.c
+   15  nano pointers.c
+   16  nano arrays.c
+   17  gcc arrays.c
+   18  nano arrays.c
+   19  gcc arrays.c
+   20  nano arrays.c
+   21  gcc arrays.c
+   22  nano arrays.c
+   23  gcc arrays.c
+   24  nano arrays.c
+   25  gcc arrays.c
+   26  nano arrays.c
+   27  gcc arrays.c
+   28  ./a.out
+   29  nano arrays.c
+   30  ./a.out
+   31  gcc arrays.c
+   32  ./a.out
+   33  nano arrays.c
+   34  cd .
+   35  cd ..
+   36  cd Class_15
+   37  history > historyClass15
