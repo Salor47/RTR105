@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+void main()
+ {
+   scanf("ievadi burtu", a);
+   printf("ievadits:",a);
+ }
