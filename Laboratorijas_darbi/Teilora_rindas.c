@@ -6,11 +6,11 @@
 #include<math.h>
 
 void main(){
-      double x, y;
-      long double a = 0.L;
-      long double S = 0.L;
+      double x, y, S;
+      long double a = 0.L, R;
+      //long double S = 0.L;
       int i = 0;
-      int k = 1;
+      int k = 0;
 //jaieliek darbība, kur lietotajs ievada argumentu un to ieliek x vietā
 ////////////////////////////////////////////////
       printf("\n");
@@ -22,10 +22,10 @@ void main(){
 
 
  ////////////////////// //parāda a0 , S0// ///////////////////////
-  a = (pow(-x, 2) / ((2*k) * (2*k-1)*4));
+  a = 1.L;
   S = a;
   printf("a0 = %.5Lf\n", a);
-  printf("S0 = %.5Lf\n", S);
+  printf("S0 = %.5f\n", S);
 ///  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
 //  S = 0;
 
@@ -34,30 +34,32 @@ void main(){
   while(k<499)
   {
   k++;
-  a = (pow(-x, 2) / ((2*k) * (2*k-1)*4)); 
+  R = -pow(x, 2) / ((2*k) * (2*k-1)*4); // (-x)^2 = x^2 un -(x^2) = -x^2
+  a = a * R;
   S = S + a;
 //  printf("%f\t%8.10Lf\t%8.10Lf\n", x, a, S);  //%.5f cipars norāda, cik cipari aiz komata
   }
 
   printf("a499 = %.5Lf\n", a);
-  printf("S499 = %.5Lf\n", S);
+  printf("S499 = %.5f\n", S);
 //  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
 //  S = 0;
-  k = 1;
 
-
-
+  k = 0;
+  a = 1.L;
+  S = a;
  ////////////////////// //parāda a500, S500// //////////////////
   while(k<500)
   {
   k++;
-  a = (pow(-x, 2) / ((2*k) * (2*k-1)*4)); 
+  R = -pow(x, 2) / ((2*k) * (2*k-1)*4); 
+  a = a * R;
   S = S + a;
 //  printf("%f\t%8.10Lf\t%8.10Lf\n", x, a, S);  //%.5f cipars norāda, cik cipari aiz komata
   }
 
   printf("a500 = %.5Lf\n", a);
-  printf("S500 = %.5Lf\n", S);
+  printf("S500 = %.5f\n", S);
 //  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
 //  S = 0;
 
