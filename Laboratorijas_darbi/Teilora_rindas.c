@@ -9,49 +9,41 @@ void main(){
       double x, y;
       long double a = 0.L;
       long double S = 0.L;
-      int k, i = 0;
-      long int b = 1;
+      int i = 0;
+      int k = 1;
 //jaieliek darbība, kur lietotajs ievada argumentu un to ieliek x vietā
 ////////////////////////////////////////////////
+      printf("\n");
       printf("Ievadi skaitli: ");
-      scanf("%lf \n",&x);
+      scanf("%lf",&x);
 ////////////////////////////////////////////////
 
 
 
 
  ////////////////////// //parāda a0 , S0// ///////////////////////
-//  a = pow(-1,k)*pow(x, 2*k+1) / (1.);
-//  S = a;
-//  printf("%.2f\t%8.2f\t%8.2f\n", x, a, S);
-  a = ((-1)^(1-1) * x^2*(1-1)) / (2*(1-1))! * 2^2*2(1-1));
+  a = (pow(-x, 2) / ((2*k) * (2*k-1)*4));
   S = a;
-  printf("a0 = %.2f\n", a);
-  printf("S0 = %.2f\n", S);
-  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
-  S = 0;
+  printf("a0 = %.5Lf\n", a);
+  printf("S0 = %.5Lf\n", S);
+///  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
+//  S = 0;
 
 
  ///////////////////// //parāda a499, S499// /////////////////////
   while(k<499)
   {
   k++;
-
-  // b = (2*k)! faktoriala aprekinsana
-  for(i = 1; i <= a; ++i)
-   {
-    b=2*k*i;
-   }
-
-  a = ((-1)^k * x^2*k) / b * 2^2*k);
+  a = (pow(-x, 2) / ((2*k) * (2*k-1)*4)); 
   S = S + a;
-//  printf("%.2f\t%8.2f\t%8.2f\n", x, a, S);  //%.5f cipars norāda, cik cipari aiz komata
+//  printf("%f\t%8.10Lf\t%8.10Lf\n", x, a, S);  //%.5f cipars norāda, cik cipari aiz komata
   }
-//  return S;
-  printf("a499 = %.2f\n", a);
-  printf("S499 = %.2f\n", S);
-  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
-  S = 0;
+
+  printf("a499 = %.5Lf\n", a);
+  printf("S499 = %.5Lf\n", S);
+//  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
+//  S = 0;
+  k = 1;
 
 
 
@@ -59,19 +51,18 @@ void main(){
   while(k<500)
   {
   k++;
-  a = ((-1)^k * x^2*k) / (2*k)! * 2^2*k); 
+  a = (pow(-x, 2) / ((2*k) * (2*k-1)*4)); 
   S = S + a;
-  //printf("%.2f\t%8.2f\t%8.2f\n", x, a, S);  //%.5f cipars norāda, cik cipari aiz komata
+//  printf("%f\t%8.10Lf\t%8.10Lf\n", x, a, S);  //%.5f cipars norāda, cik cipari aiz komata
   }
-//  return S;
-  printf("a500 = %.2f\n", a);
-  printf("S500 = %.2f\n", S);
-  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
-  S = 0;
 
+  printf("a500 = %.5Lf\n", a);
+  printf("S500 = %.5Lf\n", S);
+//  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
+//  S = 0;
 
-
-
+  y = cos(x/2);
+  printf("cos(%lf/2) = %lf \n",x,y);
 
   //cos(x/2) caur summu: ...ieliec x/2 summas vertibu
   printf("                                             \n ");
@@ -83,18 +74,14 @@ void main(){
   printf("              /                  2k     \n ");
   printf("             /_ _ _    (2k)! * 2        \n ");
   printf("              k = 0                     \n ");
-  printf("                                             \n ");
-  printf("                                             \n ");
-  printf("                                             \n ");
-  printf("                             (-1)  * 1       \n ");
-  printf(" Rekurences reizinātājs:    _____________    \n ");
-  printf("                                       2k    \n ");
-  printf("                             0!  * 2      \n ");
-  printf("                                             \n ");
-
-
-
-  y = cos(x/2);
-  printf("%lf=cos(%lf/2) \n",y,x);
+  printf("                                               \n ");
+  printf("                                               \n ");
+  printf("                                   2           \n ");
+  printf("                                 -x            \n ");
+  printf(" Rekurences reizinātājs:    _____________      \n ");
+  printf("                                               \n ");
+  printf("                            (2k) * (2k-1)*4    \n ");
+  printf("                                               \n ");
+;
 
 }
