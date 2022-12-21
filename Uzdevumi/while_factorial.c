@@ -13,11 +13,12 @@ Aprēķins ir jāpārtrauc uzreiz, tik ko tas kļūst nepareizs (lai nav jātēr
 */
 
 #include<stdio.h>
+
 int main() {
-  int a, b, i = 0;
+  int a, b = 0;
+  int i = 1;
   char e = 1;
   int f = 1;
-  char c = 0;
   long long d = 1;
   
   printf("Ludzu ievadi vienu decimalu skaitli: ");
@@ -26,37 +27,52 @@ int main() {
   printf("\nIzvelies datu tipu | 1 = char | 2 = int | 3 = long long | => ");
   scanf("%d", &b);
 
-  if(b == 1) //char
+  if(b == 1 && a <= 5) //char
     {
-      c = a;
-       for(i = 1; i <= c; ++i)
-         {
-            e=e*i;
-         }
-  printf("Faktorials ar char no %d ir %d \n", c, e);
-   //   printf("faktorials ar char datu tipu un vertibu %c = ", c);
+      while (i < a) 
+        {
+          i++;
+          e=e*i;
+        }
+        printf("Faktorials ar char datu tipu no %d ir %d \n", a, e);
     }
-
-  if(b == 2) //int
+    
+  if(b == 1 && a > 5) //char
     {
-      c = a;
-       for(i = 1; i <= c; ++i)
-         {
-            f=f*i;
-         }
-  printf("Faktorials ar int datu tipu no %d ir %d \n", c, f);
+      printf("Ir sasniegts char data tipa maksimums!\nLudzu ievadiet skaitli, kas ir a <= 5");
+    }
+  
+
+  if(b == 2 && a <= 12) //int
+    {
+      while (i < a) 
+        {
+          i++;
+          f=f*i;
+        }
+        printf("Faktorials ar int datu tipu no %d ir %d \n", a, f);
+    }
+    
+  if(b == 2 && a > 12) //int
+    {
+      printf("Ir sasniegts int data tipa maksimums!\nLudzu ievadiet skaitli, kas ir a <= 12");
     }
    
-  if(b == 3) //long long
+
+  if(b == 3 && a <= 20) //long long
     {
-      c = a;
-       for(i = 1; i <= c; ++i)
-         {
-            d=d*i;
-         }
-  printf("Faktorials ar long long datu tipu no %d ir %lld \n", c, d);
+      while (i < a) 
+        {
+          i++;
+          d=d*i;
+        }
+        printf("Faktorials ar long long datu tipu no %d ir %lld \n", a, d);
     }
-
-
+    
+  if(b == 3 && a > 20) //long long
+    {
+      printf("Ir sasniegts long long data tipa maksimums!\nLudzu ievadiet skaitli, kas ir a <= 20");
+    }
+    
 return 0;
 }
