@@ -15,7 +15,7 @@ Githubā augšupielādēt savas funkcijas grafiku ar atzīmētu saknes punktu.
 
 int main ()
 {
-   float a, b, c, delta_x, x, fa, fb;
+   float a, b, c, delta_x, x;
    int i = 0; //iterāciju skaits
 
    printf("Ievadi a vērtību = ");
