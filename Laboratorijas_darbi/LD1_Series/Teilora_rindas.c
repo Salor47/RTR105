@@ -11,62 +11,46 @@ void main(){
       //long double S = 0.L;
       int i = 0;
       int k = 0;
-//jaieliek darbība, kur lietotajs ievada argumentu un to ieliek x vietā
-////////////////////////////////////////////////
+  //Lietotājs ievada argumentu un to ieliek x vietā
       printf("\n");
-      printf("Ievadi skaitli: ");
+      printf("Lietotāj, lūdzu ievadiet skaitli: ");
       scanf("%lf",&x);
-////////////////////////////////////////////////
 
-
-
-
- ////////////////////// //parāda a0 , S0// ///////////////////////
+  ////////////////////// //parāda a0 , S0// ///////////////////////
   a = 1.L;
   S = a;
   printf("a0 = %.5Lf\n", a);
   printf("S0 = %.5f\n", S);
-///  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
-//  S = 0;
+  k = 0;
+  a = 1.L;
+  S = a;
 
 
- ///////////////////// //parāda a499, S499// /////////////////////
+  ///////////////////// //parāda a499, S499// /////////////////////
   while(k<499)
   {
   k++;
   R = -pow(x, 2) / ((2*k) * (2*k-1)*4); // (-x)^2 = x^2 un -(x^2) = -x^2
   a = a * R;
   S = S + a;
-//  printf("%f\t%8.10Lf\t%8.10Lf\n", x, a, S);  //%.5f cipars norāda, cik cipari aiz komata
+//  printf("%f\t%8.10Lf\t%8.10Lf\n", x, a, S);  //debug koda daļa, %.5f cipars norāda, cik cipari aiz komata
   }
+  printf("a499 = %.10Lf\n", a);
+  printf("S499 = %.10f\n", S);
 
-  printf("a499 = %.5Lf\n", a);
-  printf("S499 = %.5f\n", S);
-//  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
-//  S = 0;
-
-  k = 0;
-  a = 1.L;
-  S = a;
- ////////////////////// //parāda a500, S500// //////////////////
-  while(k<500)
-  {
+ 
+  ////////////////////// //parāda a500, S500// //////////////////
   k++;
   R = -pow(x, 2) / ((2*k) * (2*k-1)*4); 
   a = a * R;
   S = S + a;
-//  printf("%f\t%8.10Lf\t%8.10Lf\n", x, a, S);  //%.5f cipars norāda, cik cipari aiz komata
-  }
-
-  printf("a500 = %.5Lf\n", a);
-  printf("S500 = %.5f\n", S);
-//  a = 0; // uzliek vērtību uz 0, lai pildot tālākās darbības netiek pieskaitīts iepriekšējais rezultāts
-//  S = 0;
-
+  printf("a500 = %.10Lf\n", a);
+  printf("S500 = %.10f\n", S);
+  
+  //Funkcijas vērtība
   y = cos(x/2);
   printf("cos(%lf/2) = %lf \n",x,y);
 
-  //cos(x/2) caur summu: ...ieliec x/2 summas vertibu
   printf("                                             \n ");
   printf("              500                       \n ");
   printf("             _ _ _                      \n ");
@@ -84,6 +68,5 @@ void main(){
   printf("                                               \n ");
   printf("                            (2k) * (2k-1)*4    \n ");
   printf("                                               \n ");
-;
 
 }
