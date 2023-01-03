@@ -1,3 +1,6 @@
+set term png
+set output 'derivative_grafiks.png'
+
 set grid
 set title "Teilora rindas grafiks"
 

@@ -18,7 +18,7 @@ int main ()
    float a, b, c, delta_x, x;
    int i = 0; //iterāciju skaits
 
-   printf("Ievadi a vērtību = ");
+   printf("Ievadi 'a' pozitivu vertibu = ");
    scanf("%e", &a);
    printf("\nIevadi b vērtību = ");
    scanf("%e", &b);
@@ -35,7 +35,7 @@ int main ()
 //jaizlabo while cikls un jaieliek aiz printf funkcija, citadak ir taisne. piemeram funkcija iekavās un tur bus tas kas aprēķina pēc formulas.
 //c = (a + delta_x) * (a - delta_x); vecā ideja
   
-  if(exp(a) * exp(b) < 0){
+  if(cos(a/2) * cos(b/2) < 0){
       printf("Ar ievadītajām a = %e un b = %e vērtībām, rezultātā sakņu nav", a, b);
       return 1;
   }
@@ -44,13 +44,13 @@ int main ()
   while((b - a) > delta_x){
     i++; //Iterāciju skaitīšana
     x = (a + b) / 2;
-    if(exp(a) * exp(x) > 0) a = x;
+    if(cos(a/2) * cos(x/2) > 0) a = x;
     else b = x;
-    printf("\nNr. %d. Iterācija, kur exp(%7.3f) = %7.3f\n", i, a, exp(a));
-    printf("Funkcija x exp(%7.3f) = %7.3f \n", x, exp(x));
-    printf("Funkcija b exp(%7.3f) = %7.3f \n", b, exp(b));
-    printf("Funkcija c exp(%7.3f) = %7.3f \n", c, exp(c));
+    printf("\nNr. %d. Iterācija, kur cos(%7.3f/2) = %7.3f\n", i, a, cos(a/2));
+    printf("Funkcija x cos(%7.3f/2) = %7.3f \n", x, cos(x/2));
+    printf("Funkcija b cos(%7.3f/2) = %7.3f \n", b, cos(b/2));
+    printf("Funkcija c cos(%7.3f/2) = %7.3f \n", c, cos(c/2));
   }
-    printf("Sakne atbilst x = %.3f, jo exp(x) = %.3f \n", x, exp(x));
+    printf("Sakne atbilst x = %.3f, jo cos(x/2) = %.3f \n", x, cos(x/2));
     return 0;
 }
