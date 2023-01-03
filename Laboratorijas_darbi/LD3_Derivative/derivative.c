@@ -45,17 +45,17 @@ int main ()
    printf("\nIevadi darbības precizitāti = ");
    scanf("%e", &delta_x);
    fprintf(fptr,"\n\ta = %2.3f b = %2.3f delta_x = %2.3f\n\n", a, b, delta_x);
-   fprintf(fptr,"|  x  | f(x) |       f'(x)      |      f'(x)      |      f''(x)      |     f''(x)      | \n"); 
-   fprintf(fptr,"|     |      |analītiskā formula|finite difference|analītiskā formula|finite difference| \n");
+   fprintf(fptr,"|  x  | cos(x/2) |    -sin(x/2)     |     cos(x/2)'   |    -cos(x/2)     |    cos(x/2)''   | \n"); 
+   fprintf(fptr,"|     |          |analītiskā formula|finite difference|analītiskā formula|finite difference| \n");
    
    x = a;
     while (x<b){ 
-        c = exp(x);        // f(x)
-        d = exp(x);        // f'(x) analītiskā formula  (e^x)'= e^x
-        e = (exp (x+delta_x)-exp (x))/delta_x; // f'(x) finite difference  
-        f = exp(x);        // f''(x) analītiskā formula (e^x)''= (e^x)'= e^x
-        g = exp(x+2 * delta_x) - 2*exp(x + delta_x) + exp(x) / delta_x * delta_x; // f''(x) finite difference
-        fprintf(fptr, "|%3.2f | %3.2f | %3.2f             | %3.2f            | %3.2f             | %3.2f            | \n", x, c, d, e, f, g);
+        c = cos(x/2);        // f(x)
+        d = -sin(x/2);       // f'(x) analītiskā formula  cos(x/2)'= -sin(x/2)
+        e = (cos((x+delta_x)/2)-cos(x/2))/delta_x;        // f'(x) finite difference  
+        f = -cos(x/2);        // f''(x) analītiskā formula -sin(x/2)'= -cos(x/2)
+        g = (cos((x+2*delta_x)/2)-(2*cos((x+delta_x)/2))+sinh(x/2))/(delta_x*delta_x);         // f''(x) finite difference
+        fprintf(fptr," %3.2f    %3.2f       %3.2f               %3.2f              %3.2f              %3.2f             \n", x, c, d, e, f, g);
         x += delta_x;//x = x + delta—x; //katra cikla galā pieskaitam x klāt delta_x vērtību, lai x iet uz augšu.
       }
     
