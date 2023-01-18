@@ -1,6 +1,3 @@
-set term png
-set output 'integral_grafiks.png'
-
 f(x) = cos(x/2)
 set grid
 set xrange[-2 : 12]
