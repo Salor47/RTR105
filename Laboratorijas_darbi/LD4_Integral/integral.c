@@ -19,7 +19,7 @@ int main() {
    scanf("%le", &b);
    printf("\nIevadi darbības precizitāti = ");
    scanf("%le", &p);
-   printf("Ievadits Definicijas apgabals [%3.2f ; %3.2f] ar precizitati %3.2f\n\n", a, b, p);
+   printf("Ievadits Definicijas apgabals [%3.2f ; %3.2f] ar precizitati %3.5f\n\n", a, b, p);
 
 //skaits = (b-a) / p;     // 10 / 0.1 = 100, tātad 100 reizes ies cauri
 //width = (b-a) / skaits; // platums = 0.1
