@@ -1,0 +1,163 @@
+    1  git clone https://github.com/salor47/RTR105
+    2  cd RTR105/
+    3  cd Laboratorijas_darbi/
+    4  cd LD3_Derivative/
+    5  ls -lt
+    6  gnuplot sin_test.gp
+    7  nano sin_test.gp 
+    8  gnuplot sin_test.gp
+    9  gnuplot derivative_grafiks.gp
+   10  cd `
+   11  cd ~
+   12  rmdir
+   13  rm -r RTR105
+   14  y
+   15  ls lt
+   16  ls -lt
+   17  git clone https://github.com/salor47/RTR105
+   18  cd RTR105/
+   19  cd Laboratorijas_darbi/
+   20  cd LD3_Derivative/
+   21  gnuplot derivative_grafiks.gp
+   22  gnuplot
+   23  cd RTR10
+   24  cd RTR105
+   25  cd Laboratorijas_darbi/
+   26  cd LD3_Derivative/
+   27  ls -lt
+   28  rm -r derivative_parskatamais_fails_lietotajam.dat 
+   29  rm -r derivative_grafiks.png
+   30  nano derivative.c
+   31  ls -lt
+   32  gcc derivative.c
+   33  gcc derivative.c -lm
+   34  ./a.out
+   35  nano derivative.dat
+   36  nano derivative.c
+   37  gcc derivative.c -lm
+   38  ./a.out
+   39  nano derivative.dat
+   40  nano derivative.c
+   41  gcc derivative.c -lm
+   42  ./a.out
+   43  nano derivative.dat
+   44  ls -lt
+   45  gnuplot derivative_grafiks.gp
+   46  ls -lt
+   47  nano derivative_grafiks.gp
+   48  gnuplot derivative_grafiks.gp
+   49  nano derivative_grafiks.gp
+   50  gnuplot derivative_grafiks.gp
+   51  nano derivative_grafiks.gp
+   52  gnuplot derivative_grafiks.gp
+   53  cd ~
+   54  cd RTR105
+   55  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
+   56  git upload https://github.com/salor47/RTR105
+   57  ./git-upload https://github.com/salor47/RTR105
+   58  cd Laboratorijas_darbi/
+   59  cd LD1_Series/
+   60  ls -lt
+   61  Teilora_rindas_grafiks.gp
+   62  nano Teilora_rindas_grafiks.gp
+   63  gnuplot Teilora_rindas_grafiks.gp
+   64  ls -lt
+   65  rm -r derivative_grafiks.png 
+   66  ls -lt
+   67  cd ~
+   68  cd RTR105
+   69  ./git-upload https://github.com/salor47/RTR105
+   70  cd Laboratorijas_darbi/
+   71  cd LD4_Integral/
+   72  nano integral.c 
+   73  cd Laboratorijas_darbi/
+   74  cd ..
+   75  cd LD5_Statistics/
+   76  ls -lt
+   77  nano statistics.c 
+   78  cd ..
+   79  ./git-upload https://github.com/salor47/RTR105
+   80  git clone
+   81  git clone https://github.com/salor47/RTR105
+   82  rmdir
+   83  rm
+   84  -rm
+   85  -r RTR105
+   86  rmdir -r RTR105
+   87  rm -r RTR105
+   88  rm -rf RTR105
+   89  ls -lt
+   90  git clone https://github.com/salor47/RTR105
+   91  cd RTR105/
+   92  cd Laboratorijas_darbi/
+   93  cd LD5_Statistics/
+   94  ls -lt
+   95  statistics.c
+   96  gcc statistics.c
+   97  ./a.out
+   98  nano statistics.c
+   99  gcc statistics.c
+  100  ./a.out
+  101  ls -lt
+  102  nano statistics.dat
+  103  gnuplot ./skaitliskas_metodes.gp 
+  104  gnuplot ./skaitliskas_metodes.gp -p
+  105  nano skaitliskas_metodes.gp 
+  106  gnuplot ./skaitliskas_metodes.gp -p
+  107  nano skaitliskas_metodes.gp 
+  108  gnuplot ./skaitliskas_metodes.gp -p
+  109  nano skaitliskas_metodes.gp 
+  110  gnuplot ./skaitliskas_metodes.gp -p
+  111  nano skaitliskas_metodes.gp 
+  112  gnuplot ./skaitliskas_metodes.gp -p
+  113  nano skaitliskas_metodes.gp 
+  114  gnuplot ./skaitliskas_metodes.gp -p
+  115  nano skaitliskas_metodes.gp 
+  116  gnuplot ./skaitliskas_metodes.gp -p
+  117  nano skaitliskas_metodes.gp 
+  118  gnuplot ./skaitliskas_metodes.gp -p
+  119  nano skaitliskas_metodes.gp 
+  120  gnuplot ./skaitliskas_metodes.gp -p
+  121  nano skaitliskas_metodes.gp 
+  122  gnuplot ./skaitliskas_metodes.gp -p
+  123  nano skaitliskas_metodes.gp 
+  124  gnuplot ./skaitliskas_metodes.gp -p
+  125  nano skaitliskas_metodes.gp 
+  126  gnuplot ./skaitliskas_metodes.gp -p
+  127  nano skaitliskas_metodes.gp 
+  128  gnuplot ./skaitliskas_metodes.gp -p
+  129  nano skaitliskas_metodes.gp 
+  130  gnuplot ./skaitliskas_metodes.gp -p
+  131  nano skaitliskas_metodes.gp 
+  132  gnuplot ./skaitliskas_metodes.gp -p
+  133  nano skaitliskas_metodes.gp 
+  134  gnuplot ./skaitliskas_metodes.gp -p
+  135  nano skaitliskas_metodes.gp 
+  136  gnuplot ./skaitliskas_metodes.gp -p
+  137  nano skaitliskas_metodes.gp 
+  138  gnuplot ./skaitliskas_metodes.gp -p
+  139  nano skaitliskas_metodes.gp 
+  140  gnuplot ./skaitliskas_metodes.gp -p
+  141  help set style
+  142  gnuplot ./skaitliskas_metodes.gp -p
+  143  nano skaitliskas_metodes.gp 
+  144  nano statistics.c
+  145  cd RTR105
+  146  cd Laboratorijas_darbi/
+  147  cd LD5_Statistics/
+  148  ls -lt
+  149  nano statistics.c
+  150  gcc statistics.c
+  151  ./a.out
+  152  nano statistics.dat
+  153  gnuplot ./skaitliskas_metodes.gp 
+  154  gnuplot ./skaitliskas_metodes.gp -p
+  155  nano skaitliskas_metodes.gp 
+  156  gnuplot ./skaitliskas_metodes.gp -p
+  157  gnuplot -p ./skaitliskas_metodes.gp
+  158  nano skaitliskas_metodes.gp 
+  159  gnuplot -p ./skaitliskas_metodes.gp
+  160  nano skaitliskas_metodes.gp 
+  161  gnuplot -p ./skaitliskas_metodes.gp
+  162  ls -lt
+  163  history > historyLD5
